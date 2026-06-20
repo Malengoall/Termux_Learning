@@ -1,0 +1,78 @@
+<!DOCTYPE html><html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+  <meta name="description" content="Complete Termux tutorial - Learn how to use Termux, install packages, customize your terminal, and set up development environments Powered by Malengoall Tech">
+  <title>Termux Guide · Master Your Terminal</title>
+  <link rel="icon" href="images/termux.svg" type="image/x-icon">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/core.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+  <!-- Desktop Sidebar -->
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-header">
+      <img src="images/termux.svg" alt="Termux" class="sidebar-logo" onclick="scrollToTop()">
+      <h3>Termux Guide</h3>
+      <p>By Incognito</p>
+    </div>
+    <div class="sidebar-items" id="sidebarItems"></div>
+  </aside>
+
+  <!-- Mobile Hamburger -->
+  <button class="hamburger-btn" id="hamburgerBtn" aria-label="Menu">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+
+  <div class="menu-overlay" id="menuOverlay"></div>
+  
+  <div class="menu-panel" id="menuPanel">
+    <div class="menu-header">
+      <img src="images/termux.svg" alt="Termux" class="menu-logo">
+      <h3>Termux Guide</h3>
+      <p>By Incognito</p>
+    </div>
+    <div class="menu-items" id="mobileMenuItems"></div>
+  </div>
+
+  <div class="app">
+    <header class="header">
+      <div class="logo-wrapper" onclick="scrollToTop()">
+        <img src="images/termux.svg" alt="Termux" class="logo-icon">
+        <h1>Termux<span class="logo-highlight">Guide</span></h1>
+      </div>
+      <p>Transform your Android device into a powerful Linux development environment</p>
+    </header>
+
+    <div class="search-container">
+      <div class="search-wrapper">
+        <i class="fas fa-search search-icon"></i>
+        <input type="text" id="searchInput" class="search-input" placeholder="Search commands, packages, or topics...">
+        <button class="search-clear" id="searchClear" style="display: none;">
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+    </div>
+
+    <main class="main">
+      <div class="container">
+        <div id="contentContainer"></div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <p>Termux is available on <a href="https://f-droid.org/en/packages/com.termux/" target="_blank">F-Droid</a> and <a href="https://github.com/termux/termux-app" target="_blank">GitHub</a></p>
+      <p class="footer-note">2026 Incognito · Open Source Tutorial</p>
+    </footer>
+  </div>
+
+  <div id="copyToast" class="toast">Copied to clipboard!</div>
+
+  <script src="js/utils.js"></script>
+  <script src="js/navigation.js"></script>
+  <script src="js/app.js"></script>
+
+</body></html>
